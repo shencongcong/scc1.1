@@ -13,6 +13,7 @@ define('MODEL','app');
 include "vendor/autoload.php";
 //var_dump(ROOT);exit;
 //定义调试模式
+echo phpinfo();exit;
 define('DEBUG',true);
 if('DEBUG'){
     ini_set("display_error","On");
