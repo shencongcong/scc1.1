@@ -13,7 +13,7 @@ define('MODEL','app');
 include "vendor/autoload.php";
 //var_dump(ROOT);exit;
 //定义调试模式
-echo 2;
+echo 2;exit;
 //echo phpinfo();exit;
 define('DEBUG',true);
 if('DEBUG'){
