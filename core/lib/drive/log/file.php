@@ -10,18 +10,18 @@ namespace core\lib\drive\log;
 
 use core\lib\config;
 
-class file{
+class file {
 
-        var $path;
-        public function __construct()
-        {
-            $this->path = config::get('LOG_PATH','log').date("Y-m-d");
-        }
+    var $path;
 
-        public function log($name){
-            if(!is_dir($this->path)){
-                mkdir($this->path,'0777',true);
-            }
-            file_put_contents($this->path.'/log.php',$name.PHP_EOL,FILE_APPEND);
+    public function __construct() {
+        $this->path = config::get('LOG_PATH', 'log') . date("Y-m-d");
+    }
+
+    public function log($name) {
+        if(!is_dir($this->path)) {
+            mkdir($this->path, '0777', true);
         }
+        file_put_contents($this->path . '/log.php', $name . PHP_EOL, FILE_APPEND);
+    }
 }

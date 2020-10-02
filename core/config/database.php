@@ -12,5 +12,5 @@ return array(
     'server' => 'localhost',
     'username' => 'root',
     'password' => 'root',
-    'charset' => 'utf8'
+    'charset' => 'utf8',
 );

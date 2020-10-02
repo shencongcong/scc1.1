@@ -8,5 +8,5 @@
 
 return array(
     'DRIVE' => 'file',
-    'LOG_PATH'=>ROOT.'/runtime/log/',
+    'LOG_PATH' => ROOT . '/runtime/log/',
 );

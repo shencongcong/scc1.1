@@ -7,6 +7,6 @@
  */
 
 return array(
-  'CONTROLLER' => 'index',
-    'ACTION'   =>  'index'
+    'CONTROLLER' => 'index',
+    'ACTION' => 'index',
 );
