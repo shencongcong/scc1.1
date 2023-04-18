@@ -1,23 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "5b510aa835c2aafe97e36467b43f9b63",
     "packages": [
         {
             "name": "catfan/medoo",
-            "version": "v1.2.1",
+            "version": "v1.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/catfan/Medoo.git",
-                "reference": "b5a788c90c44db0f978512c890cb6962af4685e8"
+                "reference": "3b28d9469fd3f6f6e9c1106ec4342111ab2b50c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.phpcomposer.com/files/catfan/Medoo/b5a788c90c44db0f978512c890cb6962af4685e8.zip",
-                "reference": "b5a788c90c44db0f978512c890cb6962af4685e8",
+                "url": "https://api.github.com/repos/catfan/Medoo/zipball/3b28d9469fd3f6f6e9c1106ec4342111ab2b50c4",
+                "reference": "3b28d9469fd3f6f6e9c1106ec4342111ab2b50c4",
                 "shasum": ""
             },
             "require": {
@@ -25,12 +25,13 @@
                 "php": ">=5.4"
             },
             "suggest": {
-                "ext-pdo_dblib": "For MSSQL or Sybase databases on Linux/UNIX platform",
-                "ext-pdo_mysql": "For MySQL or MariaDB databases",
-                "ext-pdo_oci": "For Oracle databases",
-                "ext-pdo_pqsql": "For PostgreSQL databases",
-                "ext-pdo_sqlite": "For SQLite databases",
-                "ext-pdo_sqlsrv": "For MSSQL databases on Windows platform"
+                "ext-pdo_dblib": "For MSSQL or Sybase database on Linux/UNIX platform",
+                "ext-pdo_mysql": "For MySQL or MariaDB database",
+                "ext-pdo_oci": "For Oracle database",
+                "ext-pdo_oci8": "For Oracle version 8 database",
+                "ext-pdo_pqsql": "For PostgreSQL database",
+                "ext-pdo_sqlite": "For SQLite database",
+                "ext-pdo_sqlsrv": "For MSSQL database on both Window/Liunx platform"
             },
             "type": "framework",
             "autoload": {
@@ -48,18 +49,22 @@
                     "email": "angel@catfan.me"
                 }
             ],
-            "description": "The Lightest PHP database framework to accelerate development",
-            "homepage": "http://medoo.in",
+            "description": "The lightweight PHP database framework to accelerate development",
+            "homepage": "https://medoo.in",
             "keywords": [
                 "database",
+                "database library",
                 "lightweight",
+                "mariadb",
                 "mssql",
                 "mysql",
+                "oracle",
                 "php framework",
+                "postgresql",
                 "sql",
                 "sqlite"
             ],
-            "time": "2017-02-17T16:05:35+00:00"
+            "time": "2019-10-12T13:13:11+00:00"
         },
         {
             "name": "filp/whoops",
@@ -71,7 +76,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.phpcomposer.com/files/filp/whoops/92bdc6800ac6e233c9e161a1768e082389a73530.zip",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/92bdc6800ac6e233c9e161a1768e082389a73530",
                 "reference": "92bdc6800ac6e233c9e161a1768e082389a73530",
                 "shasum": ""
             },
@@ -131,7 +136,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.phpcomposer.com/files/twigphp/Twig/ddc9e3e20ee9c0b6908f401ac8353635b750eca7.zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ddc9e3e20ee9c0b6908f401ac8353635b750eca7",
                 "reference": "ddc9e3e20ee9c0b6908f401ac8353635b750eca7",
                 "shasum": ""
             },
@@ -192,5 +197,6 @@
     "platform": {
         "php": ">=5.3.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
